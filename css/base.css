@@ -1,0 +1,109 @@
+/* Base */
+
+@import url(http://fonts.googleapis.com/css?family=Codystar);
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+
+html, body{
+	background: #1E2024;
+	height:100%;
+	width:100%;
+}
+
+body{
+    color:white;
+    padding-top: 1em;
+}
+
+h1{
+	font-family: Codystar;
+	text-align: center;
+	font-color:#white;
+}
+
+p{
+    text-align: center;
+    font-family: Raleway Dots;
+    font-size: 32px;
+}
+
+
+#one {
+    font-color: #FF0000;
+       display: inline-block;
+       margin:auto;
+}
+
+#two {
+    font-color: #0000FF;
+        display: inline-block;
+         margin:auto;
+}
+
+#three {
+    font-color: #FFD700;
+    display: inline-block;
+     margin:auto;
+}
+
+#four {
+    font-color: #308014;
+    display: inline-block;
+     margin:auto;
+}
+
+div, span, object, iframe,
+h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, address, cite, code {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Raleway Dots;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 120%;
+    vertical-align: baseline;
+}
+ 
+#controls{
+    vertical-align: center;
+
+}
+
+/* Remove annoying border on linked images. */
+a img {
+    border:none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+
+ul.horizontal {
+    list-style: none;
+}
+ul.horizontal li {
+    float: left;
+    padding: 0 0.6em;
+    border-right: 1px solid black;
+    height: 1.2em;
+}
+ul.horizontal li.last {
+    border-right: none;
+}
+
+/* Clearfix
+   http://www.positioniseverything.net/easyclearing.html
+   with added position relative */
+.clear:after    {content:"\0020"; display:block; height:0; clear:both; visibility:hidden; overflow:hidden;}
+.clear          {display:block; position: relative;}
+
+
+
+
+.section{
+   position:relative;
+}
